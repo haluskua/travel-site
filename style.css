@@ -36,129 +36,134 @@ body {
   pointer-events: none;
 }
 .slide {
-    min-height: 100vh;
-    margin: 0 auto 0 auto;
-    display: flex; 
-    justify-self: space-between;
-    align-items: center;
-    color: white;
-    background: #17181a;
+  min-height: 100vh;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  color: white;
+  background: #17181a;
 }
 
-.hero-desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    flex-basis: 25rem;
-    padding-left: 5rem;
-    position: relative;
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 5rem;
+  position: relative;
 }
-.hero-img{
-    position: relative;
-    flex: 1;
-    flex-basis: 25rem;
-    padding-left: 1rem;
-    overflow: hidden
+.hero-img {
+  position: relative;
+  flex: 1;
+  flex-basis: 25rem;
+  padding-left: 1rem;
+  overflow: hidden;
 }
 .hero-img img {
-    width: 100%;
-    height: 100%;
-    /* allows object to fit container */
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  /* allows object to fit container */
+  object-fit: cover;
 }
 
 .fashion-span {
-    color: rgb(233, 139,93);
+  color: rgb(233, 139, 93);
 }
 .mountain-span {
-    color: rgb(86, 124,228);
+  color: rgb(86, 124, 228);
 }
 .hike-span {
-    color: rgb(167,110,231);
+  color: rgb(167, 110, 231);
 }
 
 .hero-desc h2 {
-    font-family: "Abril Fatface";
-    font-size: 3.5rem;
-
+  font-family: "Abril Fatface";
+  font-size: 3.5rem;
 }
 
 .hero-desc p {
-    padding: 3rem 0rem;
-    font-size: 1.5rem;
-    color: rgb(204, 193, 193);
+  padding: 3rem 0rem;
+  font-size: 1.5rem;
+  color: rgb(204, 193, 193);
 }
 .explore {
-    padding: 1rem 2rem;
-    background: none;
-    border: none;
-    color: white;
-    border: 1px solid white;
-    font-size: 1rem;
-    text-decoration: none;
-    align-self: flex-start;
-    cursor: pointer;
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  text-decoration: none;
+  align-self: flex-start;
+  cursor: pointer;
 }
 
-.nav-bar { 
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 1;
-    opacity: 1;
-    clip-path: circle(50px at 100% -10%);
-    -webkit-clip-path: circle(50px at 100% -10%);
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
 }
 
 .burder {
-    cursor: pointer;
+  cursor: pointer;
 }
 .nav-links {
-    font-size: 3.2rem;
-    flex-basis: 30rem;
+  font-size: 3.2rem;
+  flex-basis: 30rem;
 }
 
 .nav-links h3 {
-    padding: 3rem 0rem;
+  padding: 3rem 0rem;
 }
 .contact {
-    flex-basis: 30rem;
+  flex-basis: 30rem;
 }
-.contact h2{
-    font-size: 3.5rem;
-    padding: 2rem 0rem;
+.contact h2 {
+  font-size: 3.5rem;
+  padding: 2rem 0rem;
 }
 
 .contact p {
-    font-size: 1.5rem;
-    line-height: 2rem;;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.reveal-img,.reveal-text {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: #17181a;
+.reveal-img,
+.reveal-text {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  left: 0;
+  top: -15%;
+  background: #17181a;
 }
 
 .cursor {
-    width: 3rem;
-    height: 3rem;
-    border: 2px solid white;
-    border-radius: 50%;
-    position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
 }
-
 
 .active {
-    color: purple;
+  color: purple;
 }
+
+
+.scrollmagic-pin-spacer {
+    position: static !important;
+}
+
