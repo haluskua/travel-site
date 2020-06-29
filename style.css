@@ -8,6 +8,10 @@ body {
   background: #17181a;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  position: relative;
+}
+main {
+  position: absolute;
 }
 
 #logo {
@@ -224,7 +228,9 @@ body.hide {
 
 /* Other Pages*/
 
-.fashion1,.fashion2,.fashion3 {
+.fashion1,
+.fashion2,
+.fashion3 {
   min-height: 90vh;
   display: flex;
   justify-content: center;
@@ -256,7 +262,7 @@ body.hide {
   font-weight: bold;
 }
 
-.fashion1 h1{
+.fashion1 h1 {
   color: rgb(233, 139, 93);
 }
 .fashion2 h1 {
@@ -276,7 +282,31 @@ body.hide {
   font-size: 15rem;
   position: absolute;
   color: white;
-  opacity: 0.56;
+  opacity: 0.36;
   left: 50%;
   bottom: 50%;
+}
+
+.swipe {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translate(-100%);
+}
+
+.swipe1 {
+  background-color: rgb(44, 37, 53);
+  z-index: 5;
+
+}
+.swipe2 {
+  background-color: rgb(39, 43, 53);
+  z-index: 4;
+
+}
+.swipe3 {
+  background-color: rgb(29, 23, 19);
+  z-index: 3;
 }
