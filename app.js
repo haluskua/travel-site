@@ -150,7 +150,7 @@ barba.init({
         const tl = gsap.timeline({ defaults: { ease: "power2.inOut" } });
         tl.fromTo(
           ".swipe",
-          0.75,
+          0.55,
           { x: "0%" },
 
           { x: "100%", stagger: 0.1, onComplete: done }
@@ -158,7 +158,7 @@ barba.init({
         tl.fromTo(next.container, 0.75, { opacity: 0 }, { opacity: 1 });
         tl.fromTo(
           ".nav-header",
-          0.75,
+          0.55,
           { y: "-100%" },
           { y: "0%", ease: "power2.inOut" },
           "-=1"

@@ -305,15 +305,16 @@ c .fashion-text p {
   }
   .fashion-text p {
     font-size: 1.2rem;
+    margin-bottom: 2rem;
   }
   .fashion-img img {
     height: 85vh;
     object-position: top;
   }
-  .nav-bar {
+  /* .nav-bar {
     clip-path: circle(600px at 100% -10%);
     -webkit-clip-path: circle(600px at 100% -10%);
-  }
+  } */
   .nav-links {
     font-size: 1.5rem;
     padding-top: 6rem;
